@@ -1,0 +1,31 @@
+/*
+    Aquí va el diseño de todo lo especifico de la pantalla index.
+*/
+/* seccion animales */
+.preview {
+    background: white;
+    color: gray;
+    /* hacemos que los elementos se pongan en fila */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+}
+
+
+.preview figure{
+    margin: auto;
+    text-align: center;
+    /* hacemos que el texto este en mayusculas */
+    text-transform: uppercase;
+    width: auto;
+}
+.preview figure img {
+    border: 1px solid white;
+    /* hacemos las imagenes redondas */
+    border-radius: 20px;
+    /* le damos un sombreado a la imagen */
+    box-shadow: gray 0 0 10px;
+    width: 250px;
+}

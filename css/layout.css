@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Jost&display=swap');
+/* 
+    Este css tiene el diseño genral de la página, es decir lo que se repita
+    en todas las páginas debe ir aqui. Ej. El nav-bar, footer, colores, etc.
+*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-color:#FFF9DB;
+}
+.header {
+    display: inline;
+    padding: 5px 10%;
+}
+.header a{
+    color: white;
+    /* evitamos que los links cambien de color */
+    text-decoration: none;
+    /* tecto en mayusculas */
+    text-transform: uppercase;
+    margin-top: 40px;
+    text-shadow: 2px 2px #000;
+    text-align: center;
+}
+
+.header nav .navbar {
+    /* eliminamos las viñetas */
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+    transform: translate(0, 70px);
+   
+}
+.header nav li {
+    /* ponemos las opciones en horizontal */
+    display: inline-block;
+    padding: 10px 30px;
+    
+}
+.header nav li:hover {
+    transform: scale(1.1);
+}
+#contenedor {
+    background-image: url(../img/imag1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 200px;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    color: grey;
+    font-size: 12px;
+    padding: 20px 20px;
+    text-align: center;
+    transform: translate(-10%, 800px);
+
+}
+#contenedor .desc h1 {
+    font-size: 96px;
+    color: #FFFFFF;
+    margin: 10px auto;
+    font-family: 'Jost', sans-serif;
+}
+#contenedor .desc .texto-descripcion {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.container h3 {
+    background-color: #FFFFFF;
+    font-size: 64px;
+    line-height: 92px;
+    text-align: center;
+    color: #003566;
+    font-family: 'Jost', sans-serif;
+}
+
+.container .inv {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 1.5em;
+}
+
+.container .inv .desc {
+    padding: 0 5%;
+}
+
+.container .inv .desc h4{
+    font-size: 50px;
+    color: #003566;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.container .inv .desc .inf {
+    margin: 80px 30px;
+    font-size: 30px;
+    color: black;
+    text-align: justify;
+    font-family: 'Jost', sans-serif;
+}
+.container .presentacion {
+    background-color: #001D3D;
+    width: 100%;
+    padding: 2em 5%;
+}
+
+.container .presentacion h5 {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+
+.container .presentacion .nosotros {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    padding-bottom: 64px;
+}
+
+.container .presentacion .gerencia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #001D3D;
+}
+
+.container .presentacion .oficina{
+    width: auto;
+    height: 400px;
+}
+.container .presentacion .dueño{
+    width: auto;
+    height: 400px;
+}
+.container .presentacion .almacen{
+    width: auto;
+    height: 400px;
+}
+.franja {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    background-color: #003566;
+    text-align: center;
+}
+.gala{
+    text-decoration: none;
+    font-size: 60px;
+    color: #FFF9DB;
+}
